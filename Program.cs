@@ -4,8 +4,26 @@ class PemrosesData {
         dynamic temp1=(dynamic)data1;
         dynamic temp2 = (dynamic)data2;
         dynamic temp3=(dynamic)data3;
-        if (temp1 > temp2) { 
-            
+        if (temp1 > temp2)
+        {
+            Console.WriteLine("Nilai Max = " + temp1);
+        }
+        else if (temp2 > temp3) 
+        { 
+            Console.WriteLine("Nilai Max = " + temp2);
+        } else
+        {
+            Console.WriteLine("Nilai Max = " + temp3);
         }
     }
 }
+class Program {
+    private static void Main() {
+        PemrosesData data = new PemrosesData();
+
+        data.DapatkanNilaiTerbesar(12, 34, 56);
+    }
+}
+
+
+
