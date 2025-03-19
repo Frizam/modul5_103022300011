@@ -4,7 +4,7 @@ class PemrosesData {
         dynamic temp1=(dynamic)data1;
         dynamic temp2 = (dynamic)data2;
         dynamic temp3=(dynamic)data3;
-        if (temp1 > temp2)
+        if (temp1 > temp2) //perbandingan untuk mencari nilai MAX
         {
             Console.WriteLine("Nilai Max = " + temp1);
         }
